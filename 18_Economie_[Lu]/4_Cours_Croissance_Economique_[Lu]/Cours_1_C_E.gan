@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-10-09" view-index="0" gantt-divider-location="892" resource-divider-location="300" version="2.8.10" locale="fr">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="524" order="0"/>
+        <field id="tpd4" name="Date de début" width="112" order="1"/>
+        <field id="tpd5" name="Date de fin" width="252" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="ECONOMIE GENERALE" meeting="false" start="2019-10-09" duration="1" complete="0" expand="false">
+            <task id="2" name="PARTIE II" color="#8cb6ce" meeting="false" start="2019-10-09" duration="1" complete="0" thirdDate="2019-10-09" thirdDate-constraint="0" expand="true">
+                <task id="6" name="CHAPITRE 4" color="#8cb6ce" meeting="false" start="2019-10-09" duration="1" complete="0" thirdDate="2019-10-09" thirdDate-constraint="0" expand="true">
+                    <task id="8" name="La croissance économique" meeting="false" start="2019-10-09" duration="1" complete="0" expand="false">
+                        <task id="10" name="PLAN" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true">
+                            <task id="12" name="I. LES THEORIES DE LA CROISSANCE" meeting="false" start="2019-10-09" duration="1" complete="0" expand="false">
+                                <task id="15" name="A. Les précurseurs" color="#8cb6ce" meeting="false" start="2019-10-09" duration="1" complete="0" thirdDate="2019-10-09" thirdDate-constraint="0" expand="true"/>
+                                <task id="16" name="B. Schumpeter et le rôle de l’entrepreneur" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                <task id="17" name="C. Les modèles de croissance post-keynésiens (Harrod, Domar)" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                <task id="18" name="D. Le modèle de croissance néoclassique (Solow, 1956)" color="#8cb6ce" meeting="false" start="2019-10-09" duration="1" complete="0" thirdDate="2019-10-09" thirdDate-constraint="0" expand="true"/>
+                                <task id="20" name="E. Le Rapport Meadows (1972) et l’approche systémique" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                <task id="21" name="F. L’Ecole de la Régulation et le régime d’accumulation" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                <task id="22" name="G. La croissance endogène" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                            </task>
+                            <task id="23" name="II. LES ANALYSES EMPIRIQUES DE LA CROISSANCE" meeting="false" start="2019-10-09" duration="1" complete="0" expand="false">
+                                <task id="25" name="A. Les étapes de la croissance de Rostow (1960)" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                <task id="26" name="B. Les travaux de Carré, Dubois et Malinvaud (1973)" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                <task id="27" name="C. Maddison (1995) et les cinq phases de la croissance" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                            </task>
+                            <task id="28" name="III. ARTICULATION ENTRE CROISSANCE ET PRODUCTION" color="#000000" meeting="false" start="2019-10-09" duration="1" complete="0" thirdDate="2019-10-09" thirdDate-constraint="0" expand="false">
+                                <task id="30" name="A. Les facteurs de production" meeting="false" start="2019-10-09" duration="1" complete="0" expand="false">
+                                    <task id="34" name="1. Le facteur travail" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true">
+                                        <task id="36" name="a. L’approche quantitative du facteur travail" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                        <task id="37" name="b. L’approche qualitative du facteur travail" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                        <task id="38" name="c. La productivité du travail" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                        <task id="39" name="d. La relation entre croissance et productivité" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                        <task id="40" name="e. Evolution de la productivité du travail" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                    </task>
+                                    <task id="41" name="2. Le Facteur Capital" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true">
+                                        <task id="43" name="a. Les différents concepts du capital" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                        <task id="44" name="b. Le capital humain" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                        <task id="45" name="c. La productivité du capital" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                    </task>
+                                    <task id="46" name="3. Le progrès technique" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true">
+                                        <task id="48" name="a. Origine du progrès technique" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                        <task id="50" name="b. La relation progrès technique et facteurs de production" color="#8cb6ce" meeting="false" start="2019-10-09" duration="1" complete="0" thirdDate="2019-10-09" thirdDate-constraint="0" expand="true"/>
+                                    </task>
+                                </task>
+                                <task id="52" name="B. Le système de production" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true">
+                                    <task id="54" name="1. Origine du concept" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                    <task id="55" name="2. Découpage des systèmes de production" meeting="false" start="2019-10-09" duration="1" complete="0" expand="false">
+                                        <task id="57" name="a. Les notions de branche et de secteur" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                        <task id="58" name="b. Les filières de production" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                    </task>
+                                    <task id="59" name="3. Le rôle du secteur public dans le système productif" meeting="false" start="2019-10-09" duration="1" complete="0" expand="false">
+                                        <task id="61" name="a. L’évolution historique du capital public" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                        <task id="62" name="b. Les différentes facettes du rôle du secteur public" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                    </task>
+                                </task>
+                            </task>
+                            <task id="63" name="IV. LES INDICATEURS DE LA CROISSANCE" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true">
+                                <task id="65" name="A. Le concept du PIB" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                <task id="66" name="B. Les indicateurs alternatifs de la croissance" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                                <task id="67" name="C. Quelques pistes de réflexion" meeting="false" start="2019-10-09" duration="1" complete="0" expand="true"/>
+                            </task>
+                        </task>
+                    </task>
+                </task>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>

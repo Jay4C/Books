@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-08-17" view-index="0" gantt-divider-location="741" resource-divider-location="300" version="2.8.10" locale="fr">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="515" order="0"/>
+        <field id="tpd4" name="Date de début" width="107" order="1"/>
+        <field id="tpd5" name="Date de fin" width="115" order="2"/>
+        <option id="color.recent"><![CDATA[#99ff00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Hypothèses et conventions" color="#99ff00" meeting="false" start="2019-08-19" duration="1" complete="100" thirdDate="2019-08-16" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="Informations et données supplémentaires" color="#99ff00" meeting="false" start="2019-08-19" duration="1" complete="100" thirdDate="2019-08-16" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="Préface" color="#99ff00" meeting="false" start="2019-08-19" duration="1" complete="100" thirdDate="2019-08-16" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="Avant-propos" color="#99ff00" meeting="false" start="2019-08-19" duration="1" complete="100" thirdDate="2019-08-16" thirdDate-constraint="0" expand="true"/>
+        <task id="6" name="Résumé analytique" color="#99ff00" meeting="false" start="2019-08-19" duration="1" complete="100" thirdDate="2019-08-16" thirdDate-constraint="0" expand="true"/>
+        <task id="7" name="Chapitre 1. Évolution récente et perspectives" meeting="false" start="2019-08-16" duration="2" complete="0" expand="true">
+            <task id="9" name="Évolution récente et perspectives" color="#8cb6ce" meeting="false" start="2019-08-19" duration="1" complete="0" thirdDate="2019-08-16" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Graphique 1.6
+]]></notes>
+            </task>
+            <task id="10" name="Prévisions" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="11" name="Augmentation prononcée des risques" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="12" name="Priorités" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="13" name="Dossier spécial : Marchés des produits de base — Évolution et prévisions, principalement de la transition énergétique lors d’une période de bas niveau des cours des combustibles fossiles" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="14" name="Annexe 1.1. Projections régionales" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="15" name="Encadré scénario 1. Impact estimé de la baisse des prix du pétrole" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="16" name="Encadré scénario 2. Réaction à la stagnation séculaire" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="17" name="Encadré 1.1. Analyse du ralentissement du commerce mondial" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="18" name="Encadré 1.2. Évolution et perspectives macroéconomiques des pays en développement à faible revenu : le rôle des facteurs extérieurs" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="19" name="Bibliographie" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="20" name="Chapitre 2. Comprendre le ralentissement des flux de capitaux vers les pays émergents" meeting="false" start="2019-08-16" duration="1" complete="0" expand="false">
+            <task id="22" name="Caractéristiques du ralentissement des entrées nettes de capitaux" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="23" name="Comparaisons historiques : pourquoi la situation actuelle est-elle différente?" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="24" name="Quels sont les facteurs du ralentissement récent des flux de capitaux vers les pays émergents?" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="25" name="Conclusions" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="26" name="Annexe 2.1. Échantillon de pays émergents" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="27" name="Annexe 2.2. Données" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="28" name="Annexe 2.3. Méthodologie" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="29" name="Encadré 2.1. Flux de capitaux vers les pays en développement à faible revenu" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="30" name="Encadré 2.2. Politique monétaire aux États-Unis et flux de capitaux vers les pays émergents" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="31" name="Bibliographie" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="32" name="Chapitre 3. Le moment est-il venu de stimuler l’offre? Effets macroéconomiques des réformes des marchés du travail et des produits dans les pays avancés" meeting="false" start="2019-08-16" duration="1" complete="0" expand="false">
+            <task id="34" name="Exposé de l’économie des réformes des marchés des produits et du travail" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="35" name="Effets macroéconomiques des réformes : analyse basée sur un modèle" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="36" name="Effets macroéconomiques des réformes : analyse empirique" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="37" name="Récapitulation des constatations et conséquences pour les politiques publiques" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="38" name="Annexe 3.1. Modélisation des effets des réformes des marchés des produits et du travail" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="39" name="Annexe 3.2. Recensement des réformes et des chocs associés aux politiques" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="40" name="Annexe 3.3. Effets macroéconomiques des réformes : analyse empirique" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="41" name="Annexe 3.4. Pays couverts et sources des données" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="42" name="Encadré 3.1. Sortir de l’impasse : détermination des éléments d’économie politique propices à une réforme structurelle" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="43" name="Encadré 3.2. Une réforme des systèmes de négociation collective visant à assurer un niveau d’emploi élevé et stable" color="#8cb6ce" meeting="false" start="2019-08-16" duration="1" complete="0" thirdDate="2019-08-16" thirdDate-constraint="0" expand="true"/>
+            <task id="45" name="Encadré 3.3. Gains de productivité pouvant découler de la poursuite de la libéralisation des échanges et de l’investissement direct étranger" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="46" name="Encadré 3.4. Des vagues de réforme peuvent-elles inverser le courant? Études de cas faisant appel à la méthode des contrôles synthétiques" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="47" name="Bibliographie" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="48" name="Appendice statistique" meeting="false" start="2019-08-16" duration="1" complete="0" expand="false">
+            <task id="50" name="Hypothèses" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="51" name="Modifications récentes" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="52" name="Données et conventions" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="53" name="Notes sur les pays" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="54" name="Classification des pays" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="55" name="Caractéristiques générales et composition des différents groupes de pays dans la classification des Perspectives de l’économie mondiale" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="56" name="Tableau A. Classification par sous-groupes types et parts des divers sous-groupes dans le PIB global, le total des exportations de biens et de services et la population mondiale en 2015" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="57" name="Tableau B. Pays avancés classés par sous-groupes" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="58" name="Tableau C. Union européenne" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="59" name="Tableau D. Pays émergents et pays en développement classés par région et par principale source de recettes d’exportation" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="60" name="Tableau E. Pays émergents et en développement classés par région, par position extérieure nette et appartenance aux groupes des pays pauvres très endettés et des pays en développement à faible revenu" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="61" name="Tableau F. Pays dont la période de déclaration est différente" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="62" name="Tableau G. Principaux documents relatifs aux données" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="63" name="Encadré A1. Hypothèses de politique économique retenues pour les projections" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="64" name="Liste des tableaux" meeting="false" start="2019-08-16" duration="1" complete="0" expand="false">
+                <task id="67" name="Production mondiale (tableaux A1–A4)" color="#8cb6ce" meeting="false" start="2019-08-16" duration="1" complete="0" thirdDate="2019-08-16" thirdDate-constraint="0" expand="true"/>
+                <task id="68" name="Inflation (tableaux A5–A7)" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+                <task id="69" name="Politiques financières (tableau A8)" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+                <task id="70" name="Commerce extérieur (tableau A9)" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+                <task id="71" name="Transactions courantes (tableaux A10–A12)" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+                <task id="72" name="Balance des paiements et financement extérieur (tableau A13)" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+                <task id="73" name="Flux de ressources (tableau A14)" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+                <task id="74" name="Scénario de référence à moyen terme (tableau A15)" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="75" name="Perspectives de l’économie mondiale questions d’actualité" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+        <task id="76" name="Examen des perspectives par le conseil d’administration du FMI, avril 2016" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+        <task id="77" name="Tableaux" meeting="false" start="2019-08-16" duration="1" complete="0" expand="false">
+            <task id="79" name="Tableau 1.1. Perspectives de l’économie mondiale : aperçu des projections" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="80" name="Tableau de l’annexe 1.1.1. Pays européens : PIB réel, prix à la consommation, solde extérieur courant et chômage" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="81" name="Tableau de l’annexe 1.1.2. Pays d’Asie et Pacifique : PIB réel, prix à la consommation, solde extérieur courant et chômage" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="82" name="Tableau de l’annexe 1.1.3. Pays de l’Hémisphère occidental : PIB réel, prix à la consommation, solde extérieur courant et chômage" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="83" name="Tableau de l’annexe 1.1.4. Communauté des États indépendants : PIB réel, prix à la consommation, solde extérieur courant et chômage" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="84" name="Tableau de l’annexe 1.1.5. Pays du Moyen-Orient et d’Afrique du Nord, Afghanistan et Pakistan : PIB réel, prix à la consommation, solde extérieur courant et chômage" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="85" name="Tableau de l’annexe 1.1.6. Afrique subsaharienne : PIB réel, prix à la consommation, solde extérieur courant et chômage" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="86" name="Tableau 1.DS.1. Consommation mondiale d’énergie, 2013" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="87" name="Tableau 1.DS.2. Résumé des accidents graves dans le secteur de l’énergie, 1970–2008" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="88" name="Tableau 1.DS.3. Parts mondiales des émissions de gaz à effet de serre par pays" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="89" name="Tableau 1.DS.4. Objectifs de l’Accord de Paris (décembre 2015) sur la réduction des émissions de gaz à effet de serre" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="90" name="Tableau 2.1. Réserves extérieures et compte courant dans les ajustements de la balance des paiements" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="91" name="Tableau 2.2. Fortes dépréciations, tensions dans le secteur bancaire et crises extérieures pendant les ralentissements" color="#8cb6ce" meeting="false" start="2019-08-16" duration="1" complete="0" thirdDate="2019-08-16" thirdDate-constraint="0" expand="true"/>
+            <task id="93" name="Tableau de l’annexe 2.1.1. Pays dans l’échantillon de pays émergents du chapitre" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="94" name="Tableau de l’annexe 2.1.2. Crises extérieures, 1980–2015" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="95" name="Tableau de l’annexe 2.1.3. Fortes dépréciations, 1995–2000" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="96" name="Tableau de l’annexe 2.1.4. Fortes dépréciations, 2010–15" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="97" name="Tableau de l’annexe 2.3.1. Rôle des facteurs mondiaux dans les entrées brutes de capitaux" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="98" name="Tableau de l’annexe 2.3.2. Rôle des facteurs mondiaux dans les sorties brutes de capitaux" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="99" name="Tableau de l’annexe 2.3.3. Rôle des caractéristiques pays dans les entrées brutes de capitaux" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="100" name="Tableau de l’annexe 2.3.4. Rôle des caractéristiques pays dans les sorties brutes de capitaux" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="101" name="Tableau de l’annexe 2.3.5. Rôle des termes d’interaction dans les entrées brutes de capitaux" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="102" name="Tableau de l’annexe 2.3.6. Rôle des caractéristiques pays et des facteurs mondiaux dans les entrées brutes de capitaux" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="103" name="Tableau 2.2.1. Déterminants à court terme des flux de fonds des pays émergents" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="104" name="Tableau 3.1. Effet des réformes des marchés des produits et du travail sur les résultats macroéconomiques" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="105" name="Tableau 3.2.1 de l’annexe. Exemples de réformes recensées" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="106" name="Tableau 3.4.1 de l’annexe. Pays couverts et sources des données" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="107" name="Tableau 3.4.2 de l’annexe. Sources des données macroéconomiques" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="108" name="Tableau 3.1.1. Facteurs des réformes" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="109" name="Tableau A1. Production mondiale : récapitulation" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="110" name="Tableau A2. Pays avancés : PIB réel et demande intérieure totale" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="111" name="Tableau A3. Pays avancés : composantes du PIB réel" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="112" name="Tableau A4. Pays émergents et en développement : PIB réel" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="113" name="Tableau A5. Inflation : récapitulation" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="114" name="Tableau A6. Pays avancés : prix à la consommation" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="115" name="Tableau A7. Pays émergents et en développement : prix à la consommation" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="116" name="Tableau A8. Principaux pays avancés : solde budgétaire et dette des administrations publiques" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="117" name="Tableau A9. État récapitulatif du commerce mondial : volume et prix" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="118" name="Tableau A10. État récapitulatif des soldes des transactions courantes" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="119" name="Tableau A11. Pays avancés : soldes des transactions courantes" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="120" name="Tableau A12. Pays émergents et en développement : soldes des transactions courantes" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="121" name="Tableau A13. État récapitulatif des soldes du compte financier" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="122" name="Tableau A14. État récapitulatif de la capacité ou du besoin de financement" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="123" name="Tableau A15. Ensemble du monde — Scénario de référence à moyen terme : récapitulation" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="124" name="Graphiques" meeting="false" start="2019-08-16" duration="1" complete="0" expand="false">
+            <task id="126" name="Graphique 1.1. Indicateurs de l’activité mondiale" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="127" name="Graphique 1.2. Inflation mondiale" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="128" name="Graphique 1.3. Marchés des produits de base et du pétrole" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="129" name="Graphique 1.4. Variations des taux de change effectifs réels, août 2015–février 2016" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="130" name="Graphique 1.5. Flux de capitaux dans les pays émergents" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="131" name="Graphique 1.6. Pays avancés : marchés monétaires et financiers" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="132" name="Graphique 1.7. Pays avancés : crédit, prix immobiliers et bilans" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="133" name="Graphique 1.8. Pays émergents : taux d’intérêt" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="134" name="Graphique 1.9. Pays émergents : marchés d’actions et crédit" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="135" name="Graphique 1.10. Part de la Chine dans les exportations de valeur ajoutée et variation de la croissance du volume des exportations" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="136" name="Graphique 1.11. Gains et pertes résultant des variations des termes de l’échange, demande intérieure, importations et production" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="137" name="Graphique 1.12. Investissement dans le secteur de l’énergie et l’industrie minière" color="#8cb6ce" meeting="false" start="2019-08-16" duration="1" complete="0" thirdDate="2019-08-16" thirdDate-constraint="0" expand="true"/>
+            <task id="139" name="Graphique 1.13. Ralentissement de l’investissement et du commerce mondiaux" color="#8cb6ce" meeting="false" start="2019-08-16" duration="1" complete="0" thirdDate="2019-08-16" thirdDate-constraint="0" expand="true"/>
+            <task id="141" name="Graphique 1.14. Politique budgétaire" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="142" name="Graphique 1.15. Secteur extérieur" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="143" name="Graphique 1.16. Pays créditeurs et pays débiteurs" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="144" name="Graphique 1.17. Aléas influant sur les perspectives de l’économie mondiale" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="145" name="Graphique 1.18. Risques de récession et de déflation" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="146" name="Graphique scénario 1. Décomposition de la variation des prix du pétrole : PEM 2014/PEM avril 2016" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="147" name="Graphique scénario 2. Scénario du pétrole" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="148" name="Graphique scénario 3. Stagnation séculaire et réformes" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="149" name="Graphique 1.DS.1. Évolution des marchés des produits de base" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="150" name="Graphique 1.DS.2. Intensité énergétique mondiale" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="151" name="Graphique 1.DS.3. Taux de motorisation et PIB par habitant, 2013" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="152" name="Graphique 1.DS.4. Consommation mondiale d’énergie : part par type de combustible" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="153" name="Graphique 1.DS.5. Émissions de carbone de divers types de combustibles" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="154" name="Graphique 1.DS.6. Production d’électricité" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="155" name="Graphique 1.DS.7. Coût des énergies renouvelables et travaux de recherche et de développement" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="156" name="Graphique 1.DS.8. États-Unis : ventes de voitures électriques et prix de l’essence" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="157" name="Graphique 1.DS.9. Courbe en canard : exemple de variation des projections de la courbe de charge nette" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="158" name="Graphique 1.DS.10. Brevets mondiaux" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="159" name="Graphique 1.DS.11. Irradiation directe normale" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="160" name="Graphique 1.1.1. Croissance des échanges et de la production" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="161" name="Graphique 1.1.2. Élasticité des importations" color="#8cb6ce" meeting="false" start="2019-08-16" duration="1" complete="0" thirdDate="2019-08-16" thirdDate-constraint="0" expand="true"/>
+            <task id="164" name="Graphique 1.1.3. Indice de volume des importations par utilisation finale" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="165" name="Graphique 1.1.4. Indice de volume des importations de biens d’équipement" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="166" name="Graphique 1.2.1. Pays en développement à faible revenu : croissance du PIB réel" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="167" name="Graphique 1.2.2. Pays en développement à faible revenu : parts dans le PIB en parité de pouvoir d’achat" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="168" name="Graphique 1.2.3. Gains et pertes exceptionnels liés aux termes de l’échange" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="169" name="Graphique 1.2.4. Évolution de la croissance du PIB chez les partenaires commerciaux" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="170" name="Graphique 1.2.5. Écarts de rendement des obligations souveraines dans les pays en développement à faible revenu" color="#8cb6ce" meeting="false" start="2019-08-16" duration="1" complete="0" thirdDate="2019-08-16" thirdDate-constraint="0" expand="true"/>
+            <task id="172" name="Graphique 1.2.6. Simulations des effets d’une baisse des cours du pétrole sur la croissance et la dette publique des pays en développement à faible revenu" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="173" name="Graphique 2.1. Entrées nettes de capitaux vers les pays émergents et nombre de crises de la dette, 1980–T3 : 2015" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="174" name="Graphique 2.2. Entrées nettes de capitaux vers les pays émergents, 2000–T3 : 15" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="175" name="Graphique 2.3. Entrées et sorties de capitaux pour les pays émergents, 2000–T3 : 15" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="176" name="Graphique 2.4. Entrées et sorties de capitaux pour les pays émergents par type d’actif, 2000– T3 : 15" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="177" name="Graphique 2.5. Entrées nettes de capitaux par région, 2000–T3 : 15" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="178" name="Graphique 2.6. Avoirs de réserve nets des pays émergents 2000–T3 : 15" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="179" name="Graphique 2.7. Taux de change des pays émergents, 2010–T3 : 15" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="180" name="Graphique 2.8. Ralentissement des entrées nettes de capitaux et variations des taux de change, 2010–T3 : 15" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="181" name="Graphique 2.9. Coût du financement, écarts souverains et flux de capitaux dans les pays émergents" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="182" name="Graphique 2.10. Trois ralentissements majeurs des entrées nettes de capitaux" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="183" name="Graphique 2.11. Bilans extérieurs des pays émergents, 1980–2014" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="184" name="Graphique 2.12. Entrées et sorties brutes de capitaux des pays émergents, 1980–2014" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="185" name="Graphique 2.13. Engagements nets au titre de la dette extérieure des pays émergents, 1980–2014" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="186" name="Graphique 2.14. Encours de la dette des pays émergents libellée en monnaie nationale, 1995–2015" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="187" name="Graphique 2.15. Sorties nettes de capitaux et compte courant pendant le ralentissement de 2010–15" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="188" name="Graphique 2.16. Ajustement du taux de change effectif nominal en 1995–2000 et 2010–T3 : 15" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="189" name="Graphique 2.17. Rôle des facteurs mondiaux dans le ralentissement récent" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="190" name="Graphique 2.18. Effets fixes temporels estimés et entrées brutes moyennes de capitaux vers les pays émergents" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="191" name="Graphique 2.19. Part de la variation des entrées brutes de capitaux expliquée par les facteurs mondiaux" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="192" name="Graphique 2.20. Ralentissement des entrées brutes de capitaux en 2010–15 et caractéristiques propres aux pays" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="193" name="Graphique 2.21. Différences de contribution des facteurs mondiaux selon la flexibilité plus ou moins grande des régimes de change" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="194" name="Graphique 2.1.1. Entrées nettes de capitaux en direction des pays en développement à faible revenu, 2000–14" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="195" name="Graphique 2.1.2. Entrées et sorties de capitaux des pays en développement à faible revenu, 2000–14" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="196" name="Graphique 2.1.3. Entrées de capitaux vers les pays en développement à faible revenu par type d’actif et entrées nettes de capitaux par région, 2000–14" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="197" name="Graphique 2.1.4. Avoirs de réserve nets et solde courant, 2000–14" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="198" name="Graphique 2.1.5. Entrées nettes de capitaux vers les pays en développement à faible revenu, 2012–15, échantillon restreint" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="199" name="Graphique 2.1.6. Taux de change des pays en développement à faible revenu, 2009–T3 : 15" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="200" name="Graphique 2.2.1. Corrélation entre les flux de fonds des pays émergents et les entrées globales de portefeuille des pays émergents" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="201" name="Graphique 3.1. Évolution de la croissance de la production potentielle et de ses composantes dans les pays avancés" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="202" name="Graphique 3.2. Évolution des réglementations du marché des produits" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="203" name="Graphique 3.3. Évolution des institutions du marché du travail" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="204" name="Graphique 3.4. Résultats de modèles" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="205" name="Graphique 3.5. Effets macroéconomiques des réformes du marché des produits" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="206" name="Graphique 3.6. Effets directs et indirects sur la production sectorielle des réformes du marché des produits" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="207" name="Graphique 3.7. Effets directs des réformes du marché des produits sur la production des entreprises existantes" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="209" name="Graphique 3.8. Effets directs des réformes du marché des produits sur l’emploi dans les entreprises existantes : rôle de la taille de l’entreprise" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="211" name="Graphique 3.9. Effets directs des réformes du marché des produits sur les investissements des entreprises existantes : rôle des conditions financières" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="212" name="Graphique 3.10. Effets macroéconomiques et sectoriels des réformes de la législation sur la protection de l’emploi" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="213" name="Graphique 3.11. Effets sur le chômage des réformes des indemnisations de chômage" color="#8cb6ce" meeting="false" start="2019-08-16" duration="1" complete="0" thirdDate="2019-08-16" thirdDate-constraint="0" expand="true"/>
+            <task id="215" name="Graphique 3.12. Effets macroéconomiques des coins fiscaux sur le travail" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="216" name="Graphique 3.13. Effets macroéconomiques de chocs des dépenses sur les politiques actives du marché du travail" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="217" name="Graphique 3.14. Contribution de la politique budgétaire à la détermination des effets sur le chômage des réformes de la législation sur la protection de l’emploi et des indemnisations de chômage" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="218" name="Graphique 3.15. Effets des réformes sur les taux d’activité des femmes et des travailleurs âgés" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="219" name="Graphique 3.2.1 de l’annexe. Nombre de réformes recensées" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="220" name="Graphique 3.3.1 de l’annexe. Effets des réformes sur l’activité économique : contrôle de la robustesse" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="221" name="Graphique 3.2.1. Portugal : croissance de l’emploi durant la crise financière mondiale dans les entreprises non affiliées à une association d’employeurs" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="222" name="Graphique 3.2.2. Variation du taux de chômage" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="223" name="Graphique 3.3.1. Libéralisation des échanges" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+            <task id="224" name="Graphique 3.4.1. Logarithme du PIB réel par habitant à la parité du pouvoir d’achat" meeting="false" start="2019-08-16" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>

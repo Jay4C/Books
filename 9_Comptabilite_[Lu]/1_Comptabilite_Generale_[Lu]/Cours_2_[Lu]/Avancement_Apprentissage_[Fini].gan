@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-09-29" view-index="0" gantt-divider-location="623" resource-divider-location="300" version="2.8.10" locale="fr">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="376" order="0"/>
+        <field id="tpd4" name="Date de début" width="122" order="1"/>
+        <field id="tpd5" name="Date de fin" width="121" order="2"/>
+        <option id="color.recent"><![CDATA[#99ff33]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="COURS DE COMPTABILITE GENERALE" color="#99ff33" meeting="false" start="2019-05-13" duration="140" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true">
+            <task id="2" name="Première partie : FONDEMENT DE LA COMPTABILITE" color="#99ff33" meeting="false" start="2019-05-13" duration="138" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="false">
+                <task id="4" name="Chapitre 1 : Les objectifs de la comptabilité" color="#99ff33" meeting="false" start="2019-05-13" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="false">
+                    <task id="6" name="I- Définition de la comptabilité" color="#99ff33" meeting="false" start="2019-05-13" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="false">
+                        <task id="8" name="1) Les données de base chiffrées" color="#99ff33" meeting="false" start="2019-05-13" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="9" name="2) Le traitement comptable" color="#99ff33" meeting="false" start="2019-05-13" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="10" name="3) Les états de synthèse" color="#99ff33" meeting="false" start="2019-05-13" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="11" name="II- Les objectifs de la comptabilité" color="#99ff33" meeting="false" start="2019-05-13" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="false">
+                        <task id="13" name="1) Mesurer la richesse créée et contrôler son partage" color="#99ff33" meeting="false" start="2019-05-13" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="14" name="2) Fournir un moyen de preuve dans la vie des affaires" color="#99ff33" meeting="false" start="2019-05-13" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="15" name="3) Fournir un outil d’aide à la décision" color="#99ff33" meeting="false" start="2019-05-13" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="16" name="4) Fournir une base pour le diagnostic économique et financier" color="#99ff33" meeting="false" start="2019-05-13" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="17" name="5) Fournir une base pour la synthèse et la prévision macro-économique" color="#99ff33" meeting="false" start="2019-05-13" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="18" name="6) Fournir un instrument de régulation sociale" color="#99ff33" meeting="false" start="2019-05-13" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="19" name="Chapitre 2 : La Réglementation comptable" color="#99ff33" meeting="false" start="2019-05-14" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="false">
+                    <task id="21" name="I- Les sources du droit comptable" color="#99ff33" meeting="false" start="2019-05-14" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true">
+                        <task id="23" name="1) Les traités internationaux" color="#99ff33" meeting="false" start="2019-05-14" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="24" name="2) Les textes législatifs" color="#99ff33" meeting="false" start="2019-05-14" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="25" name="3) La jurisprudence" color="#99ff33" meeting="false" start="2019-05-14" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="26" name="4) La doctrine nationale et internationale" color="#99ff33" meeting="false" start="2019-05-14" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="27" name="II- La normalisation comptable" color="#99ff33" meeting="false" start="2019-05-14" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="28" name="Chapitre 3 : Les Principes fondamentaux du modèle comptable" color="#99ff33" meeting="false" start="2019-05-20" duration="131" complete="100" thirdDate="2019-05-20" thirdDate-constraint="0" expand="false">
+                    <task id="30" name="I- L’enregistrement des flux économiques" color="#99ff33" meeting="false" start="2019-05-20" duration="1" complete="100" thirdDate="2019-05-20" thirdDate-constraint="0" expand="true">
+                        <task id="32" name="1) Le principe de la partie double" color="#99ff33" meeting="false" start="2019-05-20" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="33" name="2) Le compte" color="#99ff33" meeting="false" start="2019-05-20" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="34" name="II- L’organisation des comptes" color="#99ff33" meeting="false" start="2019-05-20" duration="131" complete="100" thirdDate="2019-05-20" thirdDate-constraint="0" expand="true">
+                        <task id="36" name="1) Les comptes de situation" color="#99ff33" meeting="false" start="2019-05-20" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="37" name="2) Les comptes de gestion" color="#99ff33" meeting="false" start="2019-05-20" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="38" name="3) Le plan comptable" color="#99ff33" meeting="false" start="2019-05-20" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="39" name="4) Les principes directeurs du droit comptable" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="40" name="III- L’organisation des travaux comptables" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="true">
+                        <task id="42" name="1) Les sources légales de l’organisation comptables" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="43" name="2) L’enchaînement des travaux comptable" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="44" name="3) L’application" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="45" name="Chapitre 4 : La taxe sur la valeur ajoutée (TVA)" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                    <task id="47" name="I- Le mécanisme de la TVA" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                        <task id="49" name="1) Le Principe" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="50" name="2) Le calcul de la TVA" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="51" name="3) La relation à la valeur ajoutée" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="52" name="II- Le champ d’application de la TVA" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                        <task id="54" name="1) Les assujettis" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="55" name="2) Les opérations taxables" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="56" name="3) Le seuil d’assujettissement" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="57" name="4) Les exonérations" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="58" name="5) La territorialité" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="59" name="III- Le fait générateur et l’exigibilité" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                        <task id="61" name="1) Le fait générateur" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="62" name="2) L’exigibilité" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="63" name="IV- Les comptes de TVA" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="64" name="Chapitre 5 : Les relations avec les clients et fournisseurs" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                    <task id="66" name="I- Les règles de base de la facturation" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                        <task id="68" name="1) Définition et présentation de la facture" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="69" name="2) Les éléments de la facture" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="70" name="3) La conservation de la facture" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="71" name="4) Les réductions accordées" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="72" name="5) Les différentes catégories de factures" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="73" name="II- Calcul et comptabilisation de factures de doit" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                        <task id="75" name="1) Principe" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="76" name="2) Factures de doit avec escompte conditionnel" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="77" name="3) applications" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="78" name="III- Calcul et comptabilisation des factures d’avoir" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                        <task id="80" name="1) Principe" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="81" name="2) Applications" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="82" name="IV- Les frais accessoires liés aux achats" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                        <task id="84" name="1) Principe" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="85" name="2) Cas particulier des frais de transport" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="86" name="3) Avances et acomptes sur commandes" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="87" name="Chapitre 6 : Les emballages commerciaux" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="false">
+                    <task id="89" name="I- Typologie d’emballages" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    <task id="90" name="II- Les achats d’emballages" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    <task id="91" name="III- Les prêts d’emballages à titre gratuit et les locations" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    <task id="92" name="IV- La consignation d’emballages" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="true">
+                        <task id="94" name="1) Mécanisme de consignation" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="95" name="2) Déconsignation d’emballages" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="96" name="3) Cas de non restitution" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="97" name="4) applications" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="99" name="Chapitre 7 : Relations avec les prestataires de services" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                    <task id="101" name="I- La prestation de services" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="true">
+                        <task id="103" name="1) Principe" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="104" name="2) Le plan de compte" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="105" name="II- TVA sur prestation de services" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="true">
+                        <task id="107" name="3) Principe" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="108" name="4) Applications" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="109" name="Chapitre 8 : Les relations avec le personnel et les organismes sociaux" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                    <task id="111" name="I- La rémunération du personnel de l’entreprise" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="true">
+                        <task id="113" name="1) Les éléments du salaire" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="114" name="2) Les cotisations à la charge de l’employeur" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="115" name="3) Les retenues sur salaires" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="116" name="4) La comptabilisation des salaires" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="117" name="5) Applications" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="118" name="II- Le personnel extérieur à l’entreprise" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="119" name="Chapitre 9 : Les relations avec l’administration" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                    <task id="121" name="I- L’impôt sur le bénéfice" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                        <task id="123" name="1) L’impôt sur les sociétés" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="124" name="2) L’impôt sur le revenu des personnes physiques" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="125" name="3) Applications" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="126" name="II- L’impôt sur le chiffre d’affaires" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                        <task id="128" name="4) Principe" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="129" name="5) La déclaration de TVA" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="130" name="6) Application" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="131" name="Chapitre 10 : Les investissements et leur financement" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                    <task id="133" name="I- Les immobilisations incorporelles et corporelles" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="true">
+                        <task id="135" name="1) Typologie des immobilisations incorporelles et corporelles" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="136" name="2) Evaluation des immobilisations" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="137" name="3) Comptabilisation" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="138" name="II- Les immobilisations financières" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="true">
+                        <task id="140" name="1) Typologie des immobilisations financières" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="141" name="2) Evaluation des immobilisations financières" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="142" name="3) Comptabilisation" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="143" name="III- Le Financement des investissements" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    <task id="144" name="IV- Les opérations de désinvestissement" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="145" name="Chapitre 11 : Les opérations de trésorerie" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                    <task id="147" name="I- Les règlements en espèces" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    <task id="148" name="II- Les règlements par chèques" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    <task id="149" name="III- Les règlements par virements" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    <task id="150" name="IV- Les règlements par cartes bancaires" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    <task id="151" name="V- Les règlements par effets de commerce" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="false">
+                        <task id="153" name="1) L’entreprise et les effets" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="154" name="2) La comptabilisation des effets" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="155" name="3) Les difficultés de recouvrement" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="156" name="4) applications" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                    <task id="157" name="VI- L’état de rapprochement bancaire" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="true">
+                        <task id="159" name="1) Principe" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="160" name="2) Méthode" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                        <task id="161" name="3) application" color="#99ff33" meeting="false" start="2019-09-27" duration="1" complete="100" thirdDate="2019-05-13" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+            </task>
+            <task id="166" name="Chapitre 12 : LES OPERATIONS D’INVENTAIRE" color="#99ff33" meeting="false" start="2019-09-29" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="true"/>
+            <task id="167" name="Chapitre 13 : LES AMORTISSEMENTS" color="#99ff33" meeting="false" start="2019-09-29" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="true"/>
+            <task id="168" name="Chapitre 14 : LES PROVISIONS" color="#99ff33" meeting="false" start="2019-09-29" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="true"/>
+            <task id="169" name="Chapitre 15- LA CESSION DES IMMOBILISATIONS" color="#99ff33" meeting="false" start="2019-09-29" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="true"/>
+            <task id="170" name="Chapitre 16 : LES AUTRES REGULARISATIONS" color="#99ff33" meeting="false" start="2019-09-29" duration="1" complete="100" thirdDate="2019-09-27" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>

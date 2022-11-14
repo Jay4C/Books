@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-10-08" view-index="0" gantt-divider-location="934" resource-divider-location="300" version="2.8.10" locale="fr">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="732" order="0"/>
+        <field id="tpd4" name="Date de début" width="85" order="1"/>
+        <field id="tpd5" name="Date de fin" width="113" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="INTRODUCTION GENERALE" color="#8cb6ce" meeting="false" start="2019-10-08" duration="1" complete="0" thirdDate="2019-10-08" thirdDate-constraint="0" expand="true"/>
+        <task id="1" name="I - Genèse de la macroéconomie" color="#8cb6ce" meeting="false" start="2019-10-08" duration="1" complete="0" thirdDate="2019-10-08" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="II – Distinction Microéconomie et Macroéconomie" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+        <task id="6" name="III - Objet de la macroéconomie" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+        <task id="7" name="PREMIERE PARTIE : LES FONCTIONS DE COMPORTEMENT" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+            <task id="10" name="CHAPITRE UN : LE COMPORTEMENT DE CONSOMMATION" color="#8cb6ce" meeting="false" start="2019-10-08" duration="1" complete="0" thirdDate="2019-10-08" thirdDate-constraint="0" expand="false">
+                <task id="12" name="SECTION I - L’HYPOTHESE DU REVENU COURANT : LA FONCTION DE CONSOMMATION KEYNESIENNE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                    <task id="14" name="A) LES FONDEMENTS ET LES CARACTERISTIQUES DE L’HYPOTHESE DU REVENU COURANT" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    <task id="15" name="B) LES IMPLICATIONS ET LES LIMITES DE L’HYPOTHESE DU REVENU COURANT" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                        <task id="17" name="a) Les implications" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="18" name="c) Les limites" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="19" name="SECTION II – LA THEORIE DU CHOIX INTERTEMPOREL DE FISHER" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                    <task id="21" name="A) LE PLAN DE CONSOMMATION INTERTEMPOREL" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                        <task id="23" name="a) La notion de richesse" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="24" name="b) La contrainte budgétaire" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="25" name="c) La fonction d’utilité" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="26" name="d) L’optimum" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    </task>
+                    <task id="27" name="B) DEPLACEMENT DE L’EQUILIBRE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                        <task id="29" name="a) variation des revenus disponibles et déplacement de l’équilibre" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="31" name="b) variation du taux d’intérêt et déplacement de l’équilibre" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="32" name="c) Conclusion" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="33" name="SECTION III – L’HYPOTHESE DU CYCLE DE VIE DE MODIGLIANI" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                <task id="34" name="SECTION IV – L’HYPOTHESE DU REVENU PERMANENT DE M. FRIEDMAN" color="#8cb6ce" meeting="false" start="2019-10-08" duration="1" complete="0" thirdDate="2019-10-08" thirdDate-constraint="0" expand="true">
+                    <task id="37" name="A) LA NOTION DE REVENU PERMANENT :" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    <task id="38" name="B) LA FONCTION DE CONSOMMATION" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="39" name="CHAPITRE DEUX : LE COMPORTEMENT D’INVESTISSEMENT" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                <task id="41" name="SECTION I – LA THEORIE KEYNESIENNE DE LA DEMANDE D’NVESTISSEMENT" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                    <task id="43" name="A) LE ROLE DU TAUX D’INTERET DANS LA DECISION D’INVESTISSEMENT" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                        <task id="45" name="a) L’approche de la VAN" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="46" name="b) Le Taux de rendement interne" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    </task>
+                    <task id="47" name="B) LE ROLE DE LA DEMANDE ANTICIPEE DANS LA DECISION D’INVESTISSEMENT : LA THEORIE DE L’ACCELERATEUR" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                        <task id="49" name="a) Les hypothèses du modèle" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="50" name="b) Formulation de l’accélérateur simple" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    </task>
+                    <task id="51" name="C) CONCLUSION" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="52" name="SECTION II – LE MODELE NEOCLASSIQUE DE L’NVESTISSEMENT" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true">
+                    <task id="54" name="A) LE STOCK DE CAPITAL OPTIMUM" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    <task id="55" name="B) LA DECISION D’INVESTISSEMENT" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    <task id="56" name="C) DU STOCK DE CAPITAL OPTIMUM A L’INVESTISSEMENT" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="57" name="CHAPITRE TROIS : L’EQUILIBRE SUR LE MARCHE DE LA MONNAIE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                <task id="59" name="SECTION I – L’OFFRE ET LA DEMANDE DE MONNAIE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                    <task id="61" name="A) L’OFFRE DE MONNAIE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    <task id="62" name="B) LA DEMANDE DE MONNAIE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true">
+                        <task id="64" name="a) Le motif de transaction" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="65" name="b) Le motif de précaution" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="66" name="c) Le motif de spéculation" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="67" name="SECTION II – L’EQUILIBRE SUR LE MARCHE DE LA MONNAIE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true">
+                    <task id="69" name="A) L’APPROCHE CLASSIQUE : LA THEORIE QUANTITATIVE DE LA MONNAIE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    <task id="70" name="B) L’APPROCHE KEYNESIENNE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="71" name="CHAPITRE QUATRE : L’EQUILIBRE SUR LE MARCHE DU TRAVAIL" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true">
+                <task id="73" name="INTRODUCTION" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                <task id="74" name="SECTION I – L’APPROCHE CLASSIQUE DU MARCHE DU TRAVAIL" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                    <task id="76" name="A) HYPOTHESES" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    <task id="77" name="B) L’OFFRE DE TRAVAIL" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    <task id="78" name="C) LA DEMANDE DE TRAVAIL" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    <task id="79" name="D) L’EQUILIBRE SUR LE MARCHE DU TRAVAIL" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="80" name="SECTION II – L’APPROCHE KEYNESIENNE DU MARCHE DU TRAVAIL" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true">
+                    <task id="82" name="A) L’OFFRE ET LA DEMANDE DE TRAVAIL" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    <task id="83" name="B) L’EQUILIBRE DE SOUS EMPLOI" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+        </task>
+        <task id="84" name="DEUXIEME PARTIE : LES MODELES MACROECONOMIQUES ET LES POLITIQUES ECONOMIQUES" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true">
+            <task id="86" name="CHAPITRE CINQ : UN MODELE DE PLEIN EMPLOI : LE MODELE CLASSIQUE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                <task id="88" name="SECTION I : LE MODELE DE PLEIN EMPLOI" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                    <task id="90" name="A) LES HYPOTHESES ET LEURS IMPLICATIONS" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    <task id="91" name="B) L’EQUILIBRE MACROECONOMIQUE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true">
+                        <task id="93" name="a) La sphère réelle" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="94" name="b) La sphère monétaire" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="95" name="SECTION II : LE DEPLACEMENT DE L’EQUILIBRE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                    <task id="97" name="A) LE DEPLACEMENT DE L’EQUILIBRE SUR LE MARCHE DU TRAVAIL" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                        <task id="99" name="a) Déplacement de la courbe d’offre de travail :" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="100" name="b) Déplacement de la courbe de demande de travail :" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    </task>
+                    <task id="101" name="B) LES POLITIQUES ECONOMIQUES" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                        <task id="103" name="a) La politique budgétaire" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="104" name="b) La politique fiscale" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="105" name="c) La politique monétaire" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="106" name="d) Conclusion sur les politiques économiques" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    </task>
+                </task>
+            </task>
+            <task id="107" name="CHAPITRE SIX : UN MODELE DE SOUS-EMPLOI : LE MODELE KEYNESIEN" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true">
+                <task id="109" name="SECTION I : L’EQUILIBRE MACROECONOMIQUE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="false">
+                    <task id="111" name="A) INTRODUCTION" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    <task id="112" name="B) LE MODELE KEYNESIEN SIMPLIFIE : LA NOTION DU MULTIPLICATEUR" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true">
+                        <task id="114" name="a) Un modèle keynésien simplifié pour une économie à deux agents" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="115" name="b) Un modèle keynésien simplifié pour une économie à quatre agents" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    </task>
+                    <task id="116" name="C) LE MODELE KEYNESIEN COMPLET : LE MODELE IS-LM" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true">
+                        <task id="118" name="a) Le modèle" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="119" name="b) L’équilibre sur le marché des biens et services : la relation IS" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="120" name="c) L’équilibre sur le marché de la monnaie : la relation LM" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="121" name="d) L’équilibre global" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    </task>
+                </task>
+                <task id="122" name="SECTION II : LES POLITIQUES ECONOMIQUES" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true">
+                    <task id="124" name="A) LES POLITIQUES BUDGETAIRE ET FISCALE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true">
+                        <task id="126" name="a) Les conséquences des politiques budgétaire et fiscal" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="127" name="b) Interprétation" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    </task>
+                    <task id="128" name="B) LA POLITIQUES MONETAIRE" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true">
+                        <task id="130" name="a) Les conséquences de la politique monétaire" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                        <task id="131" name="b) Interprétation" meeting="false" start="2019-10-08" duration="1" complete="0" expand="true"/>
+                    </task>
+                </task>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>

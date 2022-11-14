@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-10-10" view-index="0" gantt-divider-location="888" resource-divider-location="300" version="2.8.10" locale="fr">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="540" order="0"/>
+        <field id="tpd4" name="Date de début" width="148" order="1"/>
+        <field id="tpd5" name="Date de fin" width="196" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="UNITE D’ENSEIGNEMENT" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+        <task id="1" name="LIMINAIRE" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+        <task id="2" name="INTRODUCTION : PRESENTATION DE LA FONCTION RESSOURCES HUMAINES" meeting="false" start="2019-10-10" duration="1" complete="0" expand="false">
+            <task id="24" name="1. Qu’est-ce que la G.R.H. ?" color="#8cb6ce" meeting="false" start="2019-10-10" duration="1" complete="0" thirdDate="2019-10-10" thirdDate-constraint="0" expand="true">
+                <task id="25" name="1.1. L’évolution de la fonction" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true">
+                    <task id="26" name="1.1.1. De la fonction personnel à la fonction RH" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                    <task id="27" name="1.1.2. Les raisons de cette évolution" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="28" name="1.2. La fonction des années 2000" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true">
+                    <task id="29" name="1.2.1. Des missions spécifiques" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                    <task id="30" name="1.2.2. Une approche contingente de la fonction" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                    <task id="31" name="1.2.3. Une approche Client-Fournisseur" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="32" name="2. Les tendances lourdes de la G.R.H. (selon Dimitri Weiss et al.)" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true">
+                <task id="33" name="2.1. Une fonction stratégique" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="34" name="2.2. Décentralisation et internationalisation" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="35" name="2.3. Informatisation" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="36" name="2.4. La responsabilité sociale et environnementale (R.S.E.)" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="37" name="3. Les autres activités de la fonction « personnel » du management des RH" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="38" name="Chapitre I. RECRUTEMENT ET INTEGRATION" meeting="false" start="2019-10-10" duration="1" complete="0" expand="false">
+            <task id="40" name="1. La préparation du recrutement" meeting="false" start="2019-10-10" duration="1" complete="0" expand="false">
+                <task id="42" name="1.1. Les besoins de personnels" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="44" name="1.2. Analyse et description des postes :" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="46" name="2. Attirer et sélectionner les candidats" meeting="false" start="2019-10-10" duration="1" complete="0" expand="false">
+                <task id="48" name="2.1. La recherche des candidatures" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="49" name="2.2. La sélection des candidats" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="50" name="3. Retenir les nouveaux membres de l’entreprise" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="51" name="Chapitre II. L’EVALUATION" meeting="false" start="2019-10-10" duration="1" complete="0" expand="false">
+            <task id="53" name="1. Les composantes d’un processus d’évaluation" meeting="false" start="2019-10-10" duration="1" complete="0" expand="false">
+                <task id="55" name="1.1. Quel est le but de l’évaluation ?" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="56" name="1.2. Que doit-on évaluer ?" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="58" name="1.3. Qui participe à l’évaluation ?" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="59" name="1.4. Comment évalue t-on ?" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="60" name="1.5. Au nom de quoi évaluer ?" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="61" name="2. Les différents types d’évaluation" meeting="false" start="2019-10-10" duration="1" complete="0" expand="false">
+                <task id="63" name="2.1. L’appréciation des compétences" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="64" name="2.2. L’évaluation de la performance" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="65" name="2.3. Les feed-back 180° et 360°" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="66" name="2.4. Les centres d’évaluation ou « assessment centers »" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="67" name="2.5. La gestion individuelle des parcours professionnels" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="68" name="3. Les difficultés de l’évaluation et les voies d’amélioration" meeting="false" start="2019-10-10" duration="1" complete="0" expand="false">
+                <task id="70" name="3.1. Les difficultés de l’évaluation :" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="71" name="3.2. Les voies d’amélioration :" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="72" name="Chapitre III. LA REMUNERATION" meeting="false" start="2019-10-10" duration="1" complete="0" expand="false">
+            <task id="74" name="1. Contraintes et objectifs de la politique de rémunération" meeting="false" start="2019-10-10" duration="1" complete="0" expand="false">
+                <task id="76" name="1.1. Environnement concurrentiel et institutionnel" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="77" name="1.2. Politique de rémunération et stratégies externes et internes" meeting="false" start="2019-10-10" duration="1" complete="0" expand="false">
+                    <task id="79" name="1.2.1. Stratégies externes" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                    <task id="80" name="1.2.2. Stratégies internes" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="81" name="1.3. Les comportements des salariés" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="82" name="1.4. Les impératifs de la gestion" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="83" name="2. Les systèmes de rémunération" meeting="false" start="2019-10-10" duration="1" complete="0" expand="false">
+                <task id="85" name="2.1. Les variables qui influencent le système de rémunération (variables de pilotage)" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="86" name="2.2. Les composantes de la rémunération (variables d’action)" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="87" name="2.3. Les qualités des systèmes de rémunération" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="88" name="3. L’individualisation des rémunérations : intérêts et risques" meeting="false" start="2019-10-10" duration="1" complete="0" expand="false">
+                <task id="90" name="3.1. Les intérêts" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="92" name="3.2. Les limites" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="93" name="4. La rémunération des compétences" meeting="false" start="2019-10-10" duration="1" complete="0" expand="false">
+                <task id="95" name="4.1. Les modes de rémunération des compétences" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+                <task id="96" name="4.2. L’efficacité de la rémunération des compétences" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="97" name="CONCLUSION" meeting="false" start="2019-10-10" duration="1" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
