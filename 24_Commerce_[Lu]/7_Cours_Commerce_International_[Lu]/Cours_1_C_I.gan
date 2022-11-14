@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-10-11" view-index="0" gantt-divider-location="981" resource-divider-location="300" version="2.8.10" locale="fr">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="703" order="0"/>
+        <field id="tpd4" name="Date de début" width="105" order="1"/>
+        <field id="tpd5" name="Date de fin" width="169" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Introduction" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+        <task id="1" name="I / Le commerce international aux XIXe et XXe siècles" meeting="false" start="2019-10-11" duration="1" complete="0" expand="false">
+            <task id="3" name="Le XIXe siècle et la domination du Royaume-Uni" meeting="false" start="2019-10-11" duration="1" complete="0" expand="false">
+                <task id="5" name="La répartition géographique des échanges" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+                <task id="6" name="La structure par produits des échanges" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="7" name="Le XXe siècle et l’émergence de nouvelles nations dominantes" color="#8cb6ce" meeting="false" start="2019-10-11" duration="1" complete="0" thirdDate="2019-10-11" thirdDate-constraint="0" expand="false">
+                <task id="10" name="L’entre-deux-guerres" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+                <task id="11" name="De 1945 à 1980" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+                <task id="12" name="La répartition géographique des échanges : vers une remise en cause de la prédominance nord-américaine" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+                <task id="13" name="La composition par produits des échanges : croissance de la part des minéraux, domination des produits industriels" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="14" name="Les politiques commerciales" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="16" name="II / Le commerce international depuis 1980" meeting="false" start="2019-10-11" duration="1" complete="0" expand="false">
+            <task id="18" name="L’évolution des exportations mondiales" meeting="false" start="2019-10-11" duration="1" complete="0" expand="false">
+                <task id="20" name="La polarisation des balances commerciales" color="#8cb6ce" meeting="false" start="2019-10-11" duration="1" complete="0" thirdDate="2019-10-11" thirdDate-constraint="0" expand="true"/>
+                <task id="22" name="Les échanges de services" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="23" name="Les politiques commerciales" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true">
+                <task id="25" name="L’automobile et les relations entre les États-Unis et le Japon" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+                <task id="27" name="L’aéronautique et la rivalité Europe/États-Unis" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+                <task id="28" name="Le secteur du textile et habillement" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="29" name="III / Les grandes théories du commerce international" meeting="false" start="2019-10-11" duration="1" complete="0" expand="false">
+            <task id="31" name="Les théories fondées sur les différences internationales de coûts" meeting="false" start="2019-10-11" duration="1" complete="0" expand="false">
+                <task id="33" name="La théorie ricardienne" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+                <task id="34" name="Le modèle HOS" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+                <task id="35" name="Les vérifications statistiques" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="36" name="Les théories fondées sur les différences internationales de technologie" meeting="false" start="2019-10-11" duration="1" complete="0" expand="false">
+                <task id="38" name="La base des théories" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+                <task id="39" name="Les vérifications empiriques" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="40" name="Les différences internationales dans le mode d’accumulation du capital" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            <task id="41" name="Les pôles de compétitivité" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            <task id="42" name="La nouvelle théorie du commerce international" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true">
+                <task id="44" name="L’inadéquation des théories fondées sur les différences internationales des coûts" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+                <task id="45" name="Les fondements de la nouvelle théorie" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true">
+                    <task id="47" name="Les rendements d’échelle croissants" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+                    <task id="48" name="La diffé- renciation du produit" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+                </task>
+            </task>
+        </task>
+        <task id="49" name="IV / Protection et libre-échange" meeting="false" start="2019-10-11" duration="1" complete="0" expand="false">
+            <task id="51" name="Les instruments d’action sur les flux commerciaux" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            <task id="53" name="Les effets du protectionnisme" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            <task id="54" name="Vertus comparées du libre-échange et de la protection" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            <task id="56" name="Le renouveau des thèses protectionnistes" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="57" name="V / Taux de change et flux commerciaux" meeting="false" start="2019-10-11" duration="1" complete="0" expand="false">
+            <task id="59" name="Dévaluation, dépréciation et balance commerciale" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            <task id="61" name="Prix à l’exportation et variation des taux de change" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            <task id="62" name="Protectionnisme et taux de change" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="63" name="VI / Les firmes et le commerce international" meeting="false" start="2019-10-11" duration="1" complete="0" expand="false">
+            <task id="65" name="Le rôle des grandes firmes nationales" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true">
+                <task id="67" name="La création des avantages" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+                <task id="68" name="Les biens intermédiaires et la compétitivité des firmes" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="69" name="Les firmes multinationales et les échanges internationaux" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true">
+                <task id="71" name="La place des firmes multinationales dans les échanges" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+                <task id="72" name="Le commerce intrafirme" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="73" name="Conclusion" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+        <task id="74" name="Bibliographie" meeting="false" start="2019-10-11" duration="1" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
